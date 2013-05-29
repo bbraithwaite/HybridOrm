@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridOrm.Model", "HybridOrm.Model\HybridOrm.Model.csproj", "{17724E46-9035-4783-878B-CA0801B9BC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridOrm.Repository.EF", "HybridOrm.EF\HybridOrm.Repository.EF.csproj", "{0B2882B5-FAD0-4C8B-9093-BC10FCE2D916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridOrm.Repository.Dapper", "Hybrid.Orm.Repository.Dapper\HybridOrm.Repository.Dapper.csproj", "{DF6CE75D-FD97-4FAD-B597-5A2A4D9C3A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HybridOrm.Services", "HybridOrm.Services\HybridOrm.Services.csproj", "{B874CEB6-A7D6-40F0-8A54-4E73B6660573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17724E46-9035-4783-878B-CA0801B9BC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17724E46-9035-4783-878B-CA0801B9BC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17724E46-9035-4783-878B-CA0801B9BC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17724E46-9035-4783-878B-CA0801B9BC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B2882B5-FAD0-4C8B-9093-BC10FCE2D916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2882B5-FAD0-4C8B-9093-BC10FCE2D916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2882B5-FAD0-4C8B-9093-BC10FCE2D916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2882B5-FAD0-4C8B-9093-BC10FCE2D916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6CE75D-FD97-4FAD-B597-5A2A4D9C3A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6CE75D-FD97-4FAD-B597-5A2A4D9C3A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6CE75D-FD97-4FAD-B597-5A2A4D9C3A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6CE75D-FD97-4FAD-B597-5A2A4D9C3A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B874CEB6-A7D6-40F0-8A54-4E73B6660573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B874CEB6-A7D6-40F0-8A54-4E73B6660573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B874CEB6-A7D6-40F0-8A54-4E73B6660573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B874CEB6-A7D6-40F0-8A54-4E73B6660573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
